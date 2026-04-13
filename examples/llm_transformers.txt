@@ -1,0 +1,16 @@
+Welcome to AI Explained — the podcast where we break down complex machine learning concepts into clear, digestible ideas.
+
+Today we're diving into the Transformer architecture — the backbone behind every large language model you've heard of, from GPT to Claude to Gemini.
+
+So what is a Transformer? At its core, it's a neural network that learns relationships between pieces of text using a mechanism called self-attention.
+Instead of reading words one by one like older recurrent networks, Transformers look at all words in a sentence simultaneously. This parallel processing is what makes them so fast and powerful.
+
+The key innovation is the attention mechanism. When processing the word "bank" in a sentence, attention lets the model look at every other word and decide which ones are most relevant for understanding its meaning. Is it a river bank or a financial institution? The surrounding words tell it everything.
+
+Transformers are made of stacked layers. Each layer has two main parts: a multi-head attention block, and a feed-forward neural network. The "multi-head" part means attention runs in parallel across multiple learned perspectives — some heads track syntax, others track semantics, others track long-range references.
+
+Large language models like GPT-4 or Claude stack hundreds of these layers, trained on trillions of tokens of text. The result is a model that can write code, answer questions, translate languages, and hold nuanced conversations.
+
+The Transformer changed everything about how we build AI. Before 2017, language models were slow, shallow, and brittle. After the "Attention is All You Need" paper, the entire field accelerated. Today, virtually every state-of-the-art model is built on this foundation.
+
+Thanks for listening to AI Explained. Next episode, we'll cover how training actually works — gradient descent, loss functions, and why bigger isn't always better.

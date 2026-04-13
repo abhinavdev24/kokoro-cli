@@ -1,0 +1,6 @@
+koko/target
+examples/*.ogg
+koko/Cargo.lock
+models
+tts-rs/samples
+.DS_Store
